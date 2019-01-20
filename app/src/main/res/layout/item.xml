@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    >
+    <Button
+        android:id="@+id/button_miao"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="码"
+        />
+
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="搜"
+        />
+</LinearLayout>
